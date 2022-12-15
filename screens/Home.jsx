@@ -11,7 +11,7 @@ const Home = () => {
             {/* */}
 
             <Recent />
-
+            <View></View>
             {/*Image Carosuel */}
             {/** Categories List */}
             {/* */}
