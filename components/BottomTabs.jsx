@@ -9,18 +9,9 @@ import { Tab } from '@rneui/base';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 
-
-
 const BottomTabs = () => {
   const Tab = createBottomTabNavigator();
-  return (
-
-    
-
-    <View><Text>Hello World</Text></View>
-
-
-  )
+  return (<View><Text>Hello World</Text></View>);
 }
 
 export default BottomTabs

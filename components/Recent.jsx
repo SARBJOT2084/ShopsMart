@@ -4,11 +4,7 @@ import Box from './Box'
 
 const Recent = () => {
     return (
-        <View>
-            <Text className="mt-9 ml-2 ">Recently Viewed</Text>
-            <Box />
-            <Box />
-        </View>
+        <View className="mt-10"><Text className="font-bold text-lg ml-3">Recent Launch</Text></View>
     )
 }
 

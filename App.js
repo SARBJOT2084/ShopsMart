@@ -8,10 +8,10 @@ export default function App() {
     <View>
 
       {/* Home */}
-      {/* <Home /> */}
+      <Home />
       {/*Products */}
       {/*Bottom Tab Navigator */}
-      <Login />
+      {/* <Login /> */}
       <StatusBar style="auto" />
     </View>
   );

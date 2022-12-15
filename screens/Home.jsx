@@ -3,6 +3,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Recent from '../components/Recent';
 import BottomTabs from '../components/BottomTabs';
+import SectionSlider from '../components/SectionSlider';
+
 const Home = () => {
     return (
         <View>
@@ -11,7 +13,7 @@ const Home = () => {
             {/* */}
 
             <Recent />
-            <View></View>
+            <SectionSlider />
             {/*Image Carosuel */}
             {/** Categories List */}
             {/* */}
