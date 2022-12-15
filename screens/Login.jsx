@@ -27,7 +27,8 @@ const Login = () => {
                 </Pressable>
                 <Pressable className="bg-[#F0F0F0] rounded-lg mb-6 h-9 flex flex-row space-x-3 ">
                     <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/0/747.png' }} className="h-6 w-6 my-auto mx-auto" />
-                    <Text className="mx-auto my-auto font-semibold">Sign up with Apple</Text>
+                    <Text className="mx-auto my-auto font-bold">Sign up with Apple</Text>
+
                 </Pressable>
             </View>
         </View>
