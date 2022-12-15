@@ -11,7 +11,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 const BottomTabs = () => {
   const Tab = createBottomTabNavigator();
-  return (<View><Text>Hello World</Text></View>);
+  return (<View></View>);
 }
 
 export default BottomTabs
