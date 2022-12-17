@@ -4,6 +4,9 @@ import Navbar from '../components/Navbar';
 import Recent from '../components/Recent';
 import BottomTabs from '../components/BottomTabs';
 import SectionSlider from '../components/SectionSlider';
+import Deals from '../components/Deals';
+import Brands from '../components/Brands';
+import { ScrollView } from 'react-native';
 
 const Home = () => {
     return (
@@ -11,13 +14,17 @@ const Home = () => {
             {/**Navbar  and Product Slider */}
             <Navbar />
             {/* */}
+            <ScrollView>
+                <Recent />
+                <SectionSlider />
+                <Deals />
+                <Brands />
+                {/*Image Carosuel */}
+                {/** Categories List */}
+                {/* */}
+                <BottomTabs />
+            </ScrollView>
 
-            <Recent />
-            <SectionSlider />
-            {/*Image Carosuel */}
-            {/** Categories List */}
-            {/* */}
-            <BottomTabs />
 
 
         </View>
